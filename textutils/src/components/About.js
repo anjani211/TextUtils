@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="container">
+    <div className="container" style={myStyle}>
       <h1 className="my-4"> About Us</h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
